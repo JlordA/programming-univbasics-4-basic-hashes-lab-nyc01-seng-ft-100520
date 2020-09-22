@@ -12,5 +12,6 @@ end
 
 
 def id_hash_generator(number)
-  Hash.new[:id] = number
+  hash = {:name => "James"}
+  hash[:id] = number
 end
